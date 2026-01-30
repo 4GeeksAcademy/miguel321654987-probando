@@ -1,7 +1,7 @@
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import String, Integer, ForeignKey, DateTime
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-from datetime import datetime, timezone # Importamos timezone para evitar el tachado en datetime.now (deprecated)
+from datetime import datetime, timezone # Importamos timezone para evitar el tachado en datetime.now
 
 db = SQLAlchemy()
 
